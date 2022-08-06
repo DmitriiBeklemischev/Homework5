@@ -16,7 +16,7 @@ int[] getArray(int size, int min, int max)
 Console.WriteLine("Введите длинну массива");
 int length = int.Parse(Console.ReadLine());
 
-int[] array = getArray(length, -5, 5);
+int[] array = getArray(length, -100, 100);
 
 for (int i = 0; i < length; i++)
 {
