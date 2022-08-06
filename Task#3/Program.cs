@@ -54,13 +54,14 @@ double getArMax(double[] ar, int l)
 
 Console.WriteLine("Введите длинну массива");
 int length = int.Parse(Console.ReadLine());
-
+Console.WriteLine("");
 double[] array = getArray(new double[length], length);
 
 for (int i = 0; i < length; i++)
 {
     Console.Write(array[i] + " ");
 }
+Console.WriteLine("");
 Console.WriteLine("");
 Console.WriteLine("max = " + getArMax(array, length));
 Console.WriteLine("min = " + getArMin(array, length));
